@@ -1,3 +1,5 @@
+// 针对页面进行修改
+
 import WalletConnectProvider from "@walletconnect/web3-provider";
 //import Torus from "@toruslabs/torus-embed"
 import WalletLink from "walletlink";
@@ -20,7 +22,7 @@ import {
 } from "eth-hooks";
 import { useEventListener } from "eth-hooks/events/useEventListener";
 import { useExchangeEthPrice } from "eth-hooks/dapps/dex";
-// import Hints from "./Hints";
+// import Hints from "./Hints" ;
 import { ExampleUI, Hints, Subgraph } from "./views";
 
 import { useContractConfig } from "./hooks";
